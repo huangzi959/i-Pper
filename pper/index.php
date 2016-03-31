@@ -7,7 +7,7 @@ http-equiv="X-UA-Compatible">
 		 
 <META charset="utf-8">		 
 <META name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<TITLE>拍拍客</TITLE>		 
+<TITLE>爱拍</TITLE>		 
 <STYLE>
 			html, body {
 				height: 100%;
@@ -144,8 +144,8 @@ http-equiv="X-UA-Compatible">
 		 
 <DIV id="container"></DIV>
 <DIV id="info">
-	我们喜欢随手拍一拍,大多数照片没有特殊意义，偶尔也会看一看。我们是——————<font size="6" color="red">拍拍客！</font>
-	<A href="https://github.com/liuhill/i-Pper" target="_blank">源代码</A>
+	我们喜欢随手拍一拍,大多数照片没有特殊意义，偶尔也会看一看。我们是——————<font size="6" color="red">爱拍客！</font>
+	<A href="https://www.tovni.com" target="_blank">首页</A>
 </DIV>
 <DIV id="weixin" >
 	<img src='img/weixin.jpg' width = '130px',height = '130px'></br>
