@@ -95,13 +95,13 @@ class wechatCallbackapiTest
 					logger($e->getMessage());
 				}
 				
-				$titleStr1 = "照片已经上墙，手机用户请在wifi下浏览或者登陆www.pper.com.cn。";
-				$Description1 = "查看3D效果请用chrome(谷歌)或者firefox(火狐)登录www.pper.com.cn。";
+				$titleStr1 = "照片已经上墙，手机用户请在wifi下浏览或者登陆www.tovni.com/ipai。";
+				$Description1 = "查看3D效果请用chrome(谷歌)或者firefox(火狐)登录www.tovni.com/ipai。";
 				$picUrl1 = WEB4WX."/img/3dShow.jpg";  
 				$webUrl1 = WEB4WX;
 				
 				$titleStr2 = "你刚刚在墙上粘贴的照片";
-				$Description2 = "请登录www.pper.com.cn找找你的图片在那块砖上。";
+				$Description2 = "请登录www.tovni.com/ipai找找你的图片在那块砖上。";
 				$picUrl2 = WEB4WX."/".PHOTORZ_DN."/";		//说略图目录
 				$picUrl2 .= $imgName;
 //				$webUrl = "http://www.baidu.com/img/bdlogo.gif";
@@ -136,7 +136,7 @@ class wechatCallbackapiTest
 					$titleStr1 = "欢迎加入拍拍客，拍点什么吧~~";
 					$Description1 = "我们喜欢随手拍一拍,大多数照片没有特殊意义，偶尔也会看一看。我们是——————拍拍客！(www.pper.com.cn)";
 					$picUrl1 = "http://www.pper.com.cn/img/3dShow.jpg";  
-					$webUrl1 = "http://www.pper.com.cn";					
+					$webUrl1 = "http://www.tovni.com/ipai";					
 					$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time,$titleStr1,$Description1,$picUrl1,$webUrl1);
 				}
 			}			
